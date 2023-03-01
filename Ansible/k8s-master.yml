@@ -1,0 +1,13 @@
+---
+
+
+
+- name: install kubectl
+
+  apt:
+
+    name: kubectl
+
+    state: present
+
+    force: yes
